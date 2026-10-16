@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Crystal Clear Enterprises - Swimming Pool Cleaning & Maintenance in Pune">
+<title>Crystal Clear Enterprises | Pool Cleaning & Maintenance</title>
+<style>
+:root{--blue:#087fc1;--deep:#06385d;--cyan:#19b9ee;--ink:#0c3457;--light:#f4fbff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit}.container{max-width:1180px;margin:auto;padding:0 24px}
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #e4edf3}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--deep);letter-spacing:.5px}
+.logoMark{width:45px;height:45px;border-radius:50%;background:linear-gradient(160deg,#0b9ed7,#063b65);color:#fff;display:grid;place-items:center;font-size:23px}
+.logo small{display:block;font-size:10px;letter-spacing:2px;color:#547083;font-weight:700}
+nav{display:flex;gap:26px;font-size:14px;font-weight:700}nav a:hover{color:var(--blue)}
+.call{background:var(--deep);color:#fff;border-radius:24px;padding:10px 16px;font-size:12px;font-weight:800;white-space:nowrap}
+.hero{min-height:570px;background:linear-gradient(90deg,rgba(2,45,77,.96) 0%,rgba(4,72,108,.78) 40%,rgba(4,72,108,.18) 72%),url("https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?auto=format&fit=crop&w=1800&q=85") center/cover;display:flex;align-items:center;color:#fff}
+.heroInner{padding:78px 24px}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:900;margin-bottom:10px;color:#8be6ff}
+h1{font-size:clamp(40px,5vw,68px);line-height:1.02;max-width:720px;margin-bottom:18px}
+h1 span{color:#25c9ff}.hero p{font-size:18px;max-width:600px;color:#e8f6fc;margin-bottom:28px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:13px 21px;border-radius:28px;font-weight:800}.primary{background:#10b8f3}.outline{border:1px solid #fff;background:transparent}
+.highlights{display:flex;gap:34px;margin-top:35px;flex-wrap:wrap}.highlight{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700}.dot{width:35px;height:35px;border:1px solid rgba(255,255,255,.6);border-radius:50%;display:grid;place-items:center}
+section{padding:72px 0}.center{text-align:center}.sectionTitle{font-size:38px;line-height:1.1;margin-bottom:10px}.sub{color:#637b8b;max-width:700px;margin:0 auto 36px}
+.services{background:#fbfdff}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.card{background:#fff;border:1px solid #e1edf3;border-radius:13px;overflow:hidden;box-shadow:0 8px 25px rgba(10,70,100,.07)}
+.cardImg{height:145px;background:linear-gradient(135deg,#17b9ee,#07588d);display:grid;place-items:center;color:#fff;font-size:48px}
+.cardBody{padding:18px}.card h3{font-size:17px;margin-bottom:7px}.card p{font-size:13px;color:#627989}
+.why{background:#edf9ff}.whyGrid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:25px}.feature{display:flex;gap:12px}.featureIcon{min-width:38px;height:38px;border-radius:50%;background:#fff;border:1px solid #9bdcf2;display:grid;place-items:center;color:#087fc1}.feature p{font-size:12px;color:#647d8c}
+.poolVisual{min-height:390px;border-radius:22px;background:url("https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1100&q=85") center/cover;display:flex;align-items:flex-end;padding:30px;box-shadow:0 18px 45px rgba(0,50,80,.15)}.quote{background:rgba(0,30,50,.6);color:#fff;padding:17px 20px;border-radius:12px;font-size:24px;font-weight:800}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.gallery div{height:190px;border-radius:12px;background:linear-gradient(135deg,#0da8dc,#074f7d);display:grid;place-items:center;color:#fff;font-size:42px}
+.contact{background:linear-gradient(120deg,#06385d,#075d85);color:#fff}.contactGrid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.contact .sub{color:#d1e8f2;margin-left:0}.contactBox{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:25px}.contactBox p{margin:12px 0;color:#e4f3f7}.whatsapp{display:inline-block;background:#19c76b;color:#fff;padding:12px 18px;border-radius:24px;font-weight:800;margin-top:8px}
+.testimonials{background:#f8fcff}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.review{background:#fff;border:1px solid #e0ebf0;border-radius:14px;padding:23px}.stars{color:#f5b400;margin:8px 0}.review p{font-size:13px;color:#637886}
+footer{background:#032d4b;color:#c3dce7;padding:28px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}
+@media(max-width:950px){nav{display:none}.cards{grid-template-columns:repeat(2,1fr)}.whyGrid,.contactGrid{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.call{display:none}.hero{min-height:620px}.cards,.reviews,.features{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.sectionTitle{font-size:31px}.heroInner{padding:65px 24px}.highlights{gap:16px}.foot{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#"><div class="logoMark">💧</div><div>CRYSTAL CLEAR<small>ENTERPRISES • POOL CARE</small></div></a>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#why">Why Us</a><a href="#areas">Service Area</a><a href="#contact">Contact</a></nav>
+<a class="call" href="tel:+917798707512">📞 +91 77987 07512<br>+91 92093 78301</a>
+</div>
+</header>
+
+<main>
+<section id="home" class="hero"><div class="container heroInner">
+<div class="eyebrow">CLEAN POOLS • HEALTHY LIVING</div>
+<h1>Professional Swimming Pool <span>Cleaning & Maintenance</span> in Pune</h1>
+<p>Crystal Clear Enterprises ensures your pool stays clean, safe and crystal clear — all year round.</p>
+<div class="buttons"><a class="btn primary" href="https://wa.me/917798707512?text=Hi%20Crystal%20Clear%20Enterprises%2C%20I%20need%20pool%20cleaning%20and%20maintenance." target="_blank">💬 WhatsApp Us</a><a class="btn outline" href="tel:+917798707512">☎ Call Now</a></div>
+<div class="highlights"><div class="highlight"><span class="dot">✓</span>Clean Water<br>Safer Swimming</div><div class="highlight"><span class="dot">💧</span>Expert Care<br>& Support</div><div class="highlight"><span class="dot">◌</span>Reliable<br>& On Time</div></div>
+</div></section>
+
+<section id="services" class="services"><div class="container">
+<div class="center"><div class="eyebrow" style="color:#087fc1">OUR SERVICES</div><h2 class="sectionTitle">Complete Pool Care Solutions</h2><p class="sub">From cleaning to maintenance, we handle everything your pool needs.</p></div>
+<div class="cards">
+<div class="card"><div class="cardImg">🧹</div><div class="cardBody"><h3>Pool Cleaning</h3><p>Remove dirt, debris and keep your pool sparkling clean.</p></div></div>
+<div class="card"><div class="cardImg">🧪</div><div class="cardBody"><h3>Chemical Balancing</h3><p>Maintain the right pH levels for safe and healthy water.</p></div></div>
+<div class="card"><div class="cardImg">💧</div><div class="cardBody"><h3>Pool Water Cleaning</h3><p>Crystal clear water with advanced cleaning techniques.</p></div></div>
+<div class="card"><div class="cardImg">⚙️</div><div class="cardBody"><h3>Filter & Pump Maintenance</h3><p>Keep your systems running efficiently and problem-free.</p></div></div>
+<div class="card"><div class="cardImg">🔧</div><div class="cardBody"><h3>Regular Maintenance</h3><p>Scheduled care for long-lasting performance and safety.</p></div></div>
+</div></div></section>
+
+<section id="why" class="why"><div class="container whyGrid">
+<div><div class="eyebrow" style="color:#087fc1">WHY CHOOSE US?</div><h2 class="sectionTitle">Your Trusted Pool Care Partner</h2>
+<div class="features">
+<div class="feature"><div class="featureIcon">👤</div><div><b>Experienced Team</b><p>Skilled & trained professionals.</p></div></div>
+<div class="feature"><div class="featureIcon">₹</div><div><b>Quality Products</b><p>Safe chemicals & equipment.</p></div></div>
+<div class="feature"><div class="featureIcon">₹</div><div><b>Affordable Pricing</b><p>Competitive service pricing.</p></div></div>
+<div class="feature"><div class="featureIcon">◷</div><div><b>On-Time Service</b><p>We value your time.</p></div></div>
+<div class="feature"><div class="featureIcon">♥</div><div><b>Customer Satisfaction</b><p>Your happiness is our priority.</p></div></div>
+</div></div>
+<div class="poolVisual"><div class="quote">Because your pool deserves the best care.</div></div>
+</div></section>
+
+<section id="gallery"><div class="container"><div class="eyebrow" style="color:#087fc1">OUR WORK</div><h2 class="sectionTitle">Pool Cleaning Gallery</h2><p class="sub" style="margin-left:0">A glimpse of the clean, fresh pool experience we aim to deliver.</p><div class="gallery"><div>🏊</div><div>🧹</div><div>💧</div><div>⚙️</div></div></div></section>
+
+<section id="areas" class="contact"><div class="container contactGrid">
+<div><div class="eyebrow">SERVICE AREA</div><h2 class="sectionTitle">Pune & Nearby Areas</h2><p class="sub">We provide swimming pool cleaning and maintenance services across Pune and surrounding areas.</p><p>✓ Pune &nbsp; ✓ Baner &nbsp; ✓ Aundh &nbsp; ✓ Wakad &nbsp; ✓ Hinjewadi<br>✓ Kothrud &nbsp; ✓ Hadapsar &nbsp; ✓ Kharadi &nbsp; ✓ And more...</p></div>
+<div id="contact" class="contactBox"><h2>Get In Touch</h2><p>We're just a call or message away!</p><p>📞 <a href="tel:+917798707512">+91 77987 07512</a><br>📞 <a href="tel:+919209378301">+91 92093 78301</a></p><p>✉️ <a href="mailto:pranavgaikwad2311@gmail.com">pranavgaikwad2311@gmail.com</a></p><a class="whatsapp" href="https://wa.me/917798707512" target="_blank">💬 Chat on WhatsApp</a></div>
+</div></section>
+
+<section class="testimonials"><div class="container"><div class="center"><div class="eyebrow" style="color:#087fc1">WHAT OUR CLIENTS SAY</div><h2 class="sectionTitle">Trusted by Pool Owners</h2></div><div class="reviews">
+<div class="review"><b>★★★★★</b><h3>Excellent Service</h3><p class="stars">★★★★★</p><p>Professional service and very good attention to pool cleanliness.</p></div>
+<div class="review"><b>★★★★★</b><h3>Reliable & On Time</h3><p class="stars">★★★★★</p><p>Great experience with regular maintenance and helpful support.</p></div>
+<div class="review"><b>★★★★★</b><h3>Highly Recommended</h3><p class="stars">★★★★★</p><p>Reliable pool care with good communication and service.</p></div>
+</div></div></section>
+</main>
+
+<footer><div class="container foot"><div><b>💧 CRYSTAL CLEAR ENTERPRISES</b><br>Swimming Pool Cleaning & Maintenance</div><div>© 2026 Crystal Clear Enterprises. All rights reserved.</div><div><a href="https://www.instagram.com/" target="_blank">Instagram</a> · <a href="https://www.facebook.com/" target="_blank">Facebook</a> · <a href="https://wa.me/917798707512" target="_blank">WhatsApp</a></div></div></footer>
+</body>
+</html>
